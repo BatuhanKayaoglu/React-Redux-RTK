@@ -1,0 +1,13 @@
+.topArrangement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.customModalMain {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
