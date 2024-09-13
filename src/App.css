@@ -11,3 +11,15 @@
   align-items: center;
   justify-content: center;
 }
+
+.headerMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.panelDiv {
+  background-color: lightgray;
+  border-radius: 30px;
+}

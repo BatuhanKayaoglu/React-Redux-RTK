@@ -1,4 +1,4 @@
-import { useFetchUsersQuery, useAddUsersMutation } from "../store";
+import { useFetchUsersQuery, useAddUsersMutation, useDeleteUsersMutation } from "../store";
 import { Skeleton } from "@mui/material";
 import Button from "@mui/material/Button";
 import CircularProgress from "@mui/material/CircularProgress";
@@ -21,7 +21,7 @@ const UsersList = () => {
     }
   };
 
-  console.log(data, isFetching, isError);
+
   let content;
   if (isFetching) {
     content = (

@@ -22,6 +22,15 @@ const usersApi = createApi({
         };
       },
     }),
+    fetchUsersById: builder.query({
+      providesTags: ["User"],
+      query: (id) => {
+        return {
+          url: `/users?id=${id}`,
+          method: "GET",
+        };
+      },
+    }),
     addUsers: builder.mutation({
       invalidatesTags: ["User"],
       query: (name) => {
@@ -48,6 +57,7 @@ const usersApi = createApi({
 
 export const {
   useFetchUsersQuery,
+  useFetchUsersByIdQuery,
   useAddUsersMutation,
   useDeleteUsersMutation,
 } = usersApi;

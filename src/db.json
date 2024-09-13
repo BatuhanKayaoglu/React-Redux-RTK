@@ -1,32 +1,89 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Julia"
-    },
-    {
-      "id": "3",
+      "id": 3,
       "name": "Can Boz"
     },
     {
-      "id": "681b",
-      "name": "DENEME22"
-    },
-    {
-      "id": "6e54",
-      "name": "DENEME22"
-    },
-    {
-      "id": "618d",
-      "name": "DENEME22"
-    },
-    {
-      "id": "adbb",
+      "id": 6,
       "name": "Batu"
     },
     {
-      "id": "8209",
-      "name": "Batu"
+      "name": "Jenna Wunsch I",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "RandomName"
+    }
+  ],
+  "albums": [
+    {
+      "userId": 3,
+      "title": "Eskişehir",
+      "id": 15
+    },
+    {
+      "userId": 3,
+      "title": "Deneme Albümü",
+      "id": 16
+    },
+    {
+      "id": 17,
+      "title": "Deneme Albümü",
+      "userId": 4
+    },
+    {
+      "id": "2d41",
+      "title": "Klasikler ",
+      "userId": 3
+    },
+    {
+      "id": "ba87",
+      "userId": 4,
+      "title": "HAHXD"
+    },
+    {
+      "id": "e93d",
+      "userId": 4,
+      "title": "olmadı"
+    },
+    {
+      "id": "8f47",
+      "userId": null,
+      "title": "LOOL"
+    },
+    {
+      "id": "6218",
+      "userId": null,
+      "title": "XD"
+    }
+  ],
+  "photos": [
+    {
+      "id": "448a",
+      "albumId": 15,
+      "url": "https://picsum.photos/150/150"
+    },
+    {
+      "id": "87d9",
+      "albumId": "8f47",
+      "url": "https://picsum.photos/150/150"
+    },
+    {
+      "id": "19a8",
+      "albumId": 15,
+      "url": "https://picsum.photos/150/150"
+    },
+    {
+      "id": "fe14",
+      "albumId": 15,
+      "url": "https://picsum.photos/150/150"
+    },
+    {
+      "id": "8fb3",
+      "albumId": 15,
+      "url": "https://picsum.photos/150/150"
     }
   ]
 }
